@@ -245,6 +245,9 @@ footer a {
 }
 a.footer-link {
   color: white;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: bold;
 }
 .footer-logo {
   color: #2196f3;
