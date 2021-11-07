@@ -4,8 +4,8 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 .conteiner {
-  width: 1170px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -72,24 +72,29 @@ ul.site-nav {
   display: flex;
 }
 .contacts li {
-  color: #757575;
   list-style-type: none;
-  margin-right: 50px;
-}
-.contacts .item:last-child {
-  margin-right: 0;
 }
 .contacts a {
-  color: #2196f3;
+  color: #757575;
+  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.contacts .item:last-child {
+  margin-right: 0;
+}
+.contacts a:hover,
+:focus {
+  color: #2196f3;
+}
+
 .bord {
   background-color: #2f303a;
   display: block;
   padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 h1 {
@@ -119,6 +124,9 @@ h1 p {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.sec-2 {
+  margin-bottom: 94px;
+}
 .list {
   display: flex;
   list-style-type: none;
@@ -129,18 +137,15 @@ h1 p {
 
 .photos li {
   display: inline-block;
-  margin-right: 26px;
+  margin-right: 30px;
 }
-ul.photos {
-  margin-bottom: 94px;
-}
+
 .list li {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   margin-right: 30px;
-  margin-top: 94px;
   width: 270px;
   letter-spacing: 0.03em;
 }
@@ -154,12 +159,11 @@ ul.photos {
 }
 h2 {
   text-align: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
   font-size: 34px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .photos .item:last-child {
   margin-right: 0;
@@ -173,6 +177,9 @@ h3 {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.sec-3 {
+  margin-bottom: 94px;
+}
 .command li {
   display: inline-block;
   margin-right: 26px;
@@ -181,9 +188,9 @@ h3 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.sec-3 {
-  background-color: #f5f4fa;
+.sec-4 {
   padding-top: 94px;
+  background-color: #f5f4fa;
   padding-bottom: 94px;
 }
 .command .item:last-child {
@@ -230,18 +237,23 @@ ul.footer-text {
   margin-top: 9px;
 }
 footer a {
-  color: white;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+a.footer-link {
+  color: white;
+}
 .footer-logo {
   color: #2196f3;
 }
 
 .adress-foot {
   color: white;
+}
+footer a:hover,
+:focus {
+  color: #2196f3;
 }
