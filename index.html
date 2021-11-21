@@ -14,17 +14,31 @@
     <header class="head-line"> 
     <div class="conteiner">
       <nav class="navi">
-       <a class="logo" href=""><spawm class="logo-color">Web</spawm>Studio
+       <a class="logo" href="index.html"><spawm class="logo-color">Web</spawm>Studio
        </a>
         <ul class="site-nav">
-         <li class="item"><a href="">Студия</a></li>
-         <li class="item"><a href="">Портфолио</a></li>
-         <li class="item"><a href="">Контакты</a></li>
+         <li class="item-nav"><a class="nav-link" href="">Студия</a></li>
+         <li class="item-nav"><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+         <li class="item-nav"><a class="nav-link" href="">Контакты</a></li>
         </ul>
       
         <ul class="contacts">
-          <li class="item"><a class="itemmail" href=""><span class="icon"> </span>info@devstudio.com</a></li>
-          <li class="item"><a class="itemsmart" href=""><span class="icon"> </span>+38 096 111 11 11</a></li>
+          <li class="item-cont">
+            <a class="itemmail" href="">
+                <svg class="icon-head1">
+                  <use href="./img/sprite.svg#envelope"></use>
+                </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item-cont">
+            <a class="itemsmart" href="">
+               <svg class="icon-head2">
+                  <use href="./img/sprite.svg#smartphone"></use>
+                </svg>
+             +38 096 111 11 11
+            </a>
+          </li>
          </ul>
       </nav>
     </div>
@@ -42,21 +56,41 @@
       <h2></h2>
       <section class="sec-2">
       <ul class="list">
-        <li class="item2">
-          <p>Внимание к деталям</p>
-          Идейные соображения, а также начало повседневной работы по формированию позиции.
+        <li class="li-sec2">
+          <div class="block-sec2">
+          <svg class="icon-sec2">
+            <use href="./img/sprite.svg#antenna"></use>
+          </svg>
+        </div>
+          <p class="text-sec2">Внимание к деталям</p>
+          <p class="text2-sec2">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
        </li>
-       <li class="item2">
-        <p>Пунктуальность</p>
-        Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+       <li class="li-sec2">
+        <div class="block-sec2">
+        <svg class="icon-sec2">
+          <use href="./img/sprite.svg#clock"></use>
+        </svg>
+        </div>
+        <p class="text-sec2">Пунктуальность</p>
+        <p class="text2-sec2">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
        </li>
-       <li class="item2">
-        <p>Планирование</p>
-        Равным образом консультация с широким активом в значительной степени обуславливает.
+       <li class="li-sec2">
+         <div class="block-sec2">
+          <svg class="icon-sec2">
+           <use href="./img/sprite.svg#diagram"></use>
+          </svg>
+         </div>
+        <p class="text-sec2">Планирование</p>
+        <p class="text2-sec2">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
        </li>
-       <li class="item2">
-        <p>Современные технологии</p>
-        Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+       <li class="li-sec2">
+         <div class="block-sec2">
+        <svg class="icon-sec2">
+          <use href="./img/sprite.svg#astronaut"></use>
+        </svg>
+        </div>
+        <p class="text-sec2">Современные технологии</p>
+        <p class="text2-sec2">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
        </li>
       </ul>
       </section>
@@ -77,25 +111,158 @@
         Наша команда
        </h4>
         <ul class="command">
-         <li class="item">
+         <li class="person">
            <img src="./img/com-1.jpg" alt="">
            <p>Игорь Демьяненко</p>
            <p>Product Designer</p>
+          <ul class="social-icon">
+            <li class="social">
+              <a  class="media-block" href="">
+               <svg class="media-icon">
+                 <use href="./img/sprite.svg#instagram"></use>
+               </svg>
+             </a>
+           </li>
+          <li class="social">
+            <a class="media-block" href="">
+              <svg class="media-icon">
+                <use href="./img/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social">
+            <a class="media-block" href="">
+              <svg class="media-icon">
+                <use href="./img/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social">
+            <a  class="media-block" href="">
+              <svg class="media-icon"> 
+                <use href="./img/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+            
+          </ul>
          </li>
-         <li class="item">
+         <li class="person">
            <img src="./img/com-2.jpg" alt="">
            <p>Ольга Репина</p>
            <p>Frontend Developer</p>
+            <ul class="social-icon">
+              <ul class="social-icon">
+                <li class="social">
+                  <a class="media-block" href="">
+                    <svg class="media-icon">
+                      <use href="./img/sprite.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a class="media-block" href="">
+                    <svg class="media-icon">
+                      <use href="./img/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a  class="media-block" href="">
+                    <svg class="media-icon">
+                      <use href="./img/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social">
+                  <a class="media-block" href="">
+                    <svg class="media-icon">
+                      <use href="./img/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              
+              </ul>
+              </li>
+            </ul>
          </li>
-         <li class="item">
+         <li class="person">
            <img src="./img/com-3.jpg" alt="">
            <p>Николай Тарасов</p>
            <p>Marketing</p>
+           <ul class="social-icon">
+            <ul class="social-icon">
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            
+            </ul>
+            </li>
+           </ul>
          </li>
-         <li class="item">
+         <li class="person">
            <img src="./img/com-4.jpg" alt="">
            <p>Михаил Ермаков</p>
            <p>UI Designer</p>
+          <ul class="social-icon">
+            <ul class="social-icon">
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social">
+                <a class="media-block" href="">
+                  <svg class="media-icon">
+                    <use href="./img/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            
+            </ul>
+            </li>
+          </ul>
          </li>
         </ul>
      </div>  
@@ -104,23 +271,93 @@
       <div class="conteiner">
         <h5>Постоянные клиенты</h5>
           <ul class="listpartner">
-              <li class="item-partner"><a href=""></a></li>
-              <li class="item-partner"><a href=""></a></li>
-              <li class="item-partner"><a href=""></a></li>
-              <li class="item-partner"><a href=""></a></li>
-              <li class="item-partner"><a href=""></a></li>
-              <li class="item-partner"><a href=""></a></li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn3"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn4"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn5"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item-partner">
+                <a class="partner-link" href="">
+                  <svg class="partner-icon">
+                    <use href="./img/sprite.svg#partn6"></use>
+                  </svg>
+                </a>
+              </li>
           </ul>
       </div>
     </section>
     <footer>
-     <div class="conteiner">     
-       <ul class="footer-text">
-         <li><a class="footer-link" href=""><spawm class="footer-logo">Web</spawm>Studio</a></li>
+     <div class="conteiner"> 
+       <div class="footer-block">   
+        <ul class="footer-text">
+         <li class ="logo-footer"><a class="footer-link1" href="index.html"><spawm class="footer-logo">Web</spawm>Studio</a></li>
          <li class="adress-foot">г. Киев, пр-т Леси Украинки, 26</li>
-         <li><a href="">info@example.com></a></li>
-         <li><a href="">+38 099 111 11 11</a></li>
+         <li><a class="footer-info" href="">info@example.com></a></li>
+         <li><a class="footer-info" href="">+38 099 111 11 11</a></li>
        </ul>
+        <div class="invite"><p class="text-footer">ПРИСОИДИНЯЙТЕСЬ</p>
+       <ul class="soc-footer">
+          <li class="soc-item">
+            <a class="footer-link" href="">
+              <svg class="footer-icon">
+               <use href="./img/sprite.svg#instagram"></use>
+              </svg>
+           </a>
+         </li>
+          <li class="soc-item">
+            <a class="footer-link" href="">
+              <svg class="footer-icon">
+                <use href="./img/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a class="footer-link" href="">
+              <svg class="footer-icon">
+                <use href="./img/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a  class="footer-link" href="">
+              <svg class="footer-icon">
+                <use href="./img/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+       </ul>
+       </div>
+      </div>
       </div>
     </footer>
   </body>
