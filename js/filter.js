@@ -36,6 +36,7 @@ function getItems(className) {
     items.forEach(item => {
                     if (item.classList.contains(className)) {
                         item.style.display = 'block'
+                        
                     }
                     else {
                         item.style.display = 'none'

@@ -53,14 +53,52 @@
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-           <p>
-          
-           </p>
-           <button class="button-close" data-modal-close>
-            <svg class="close-block">
-              <use href="./img/sprite.svg#icon-close"></use>
-            </svg>
-           </button>
+            <button class="button-close" data-modal-close>
+              <svg class="close-block">
+                <use href="./img/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <div class="modal-conteiner">
+              <p class="modal-text">
+                 Оставьте свои данные, мы вам перезвоним
+              </p>
+              <div class="form-field">
+                
+                <label for="name" class="form-lable" >Имя</label>
+                <br>
+                <input type="text" class="form-input" autocomplete="off" name="name" id="name">
+                  <svg class="icon-modal">
+                    <use href="./img/sprite.svg#person-modal"></use>
+                  </svg>
+              </div>
+             <div class="form-field">
+                <label for="tel" class="form-lable">Телефон</label>
+               <br>
+                <input type="tel" class="form-input" name="tel" id="tel">
+                <svg class="icon-modal">
+                  <use href="./img/sprite.svg#phone-modal"></use>
+                </svg>
+              </div>
+              <div class="form-field">
+                <label for="mail" class="form-lable">Почта</label>
+                <br>
+                <input type="mail" class="form-input" name="mail" id="mail">
+                <svg class="icon-modal">
+                  <use href="./img/sprite.svg#mail-modal"></use>
+                </svg>
+              </div>
+              <div class="coment-field">
+                <label for="coment" class="form-lable">Коментарии</label>
+                <br>
+                <textarea class="coment-form" name="coment" placeholder="Введите текст" id="coments" cols="30" rows="10"></textarea>
+              </div>
+              <div class="check-mark">
+                <input type="checkbox" name="check" value="mark" id="mark">
+                <label for="checkbox" class="coment-text">Соглашаюсь с рассылкой и принимаю <span class="modal-text-span">Условия договора</span></label>
+
+              </div>
+              <button class="modal-butt"type="submit"><p class="send">Отправить</p></button>
+            </div>
           </div>
          </div>
       </div>
@@ -127,8 +165,8 @@
         <ul class="command">
          <li class="person">
            <img src="./img/com-1.jpg" alt="">
-           <p>Игорь Демьяненко</p>
-           <p>Product Designer</p>
+           <p class="com-text">Игорь Демьяненко</p>
+           <p class="com-text2">Product Designer</p>
           <ul class="social-icon">
             <li class="social">
               <a  class="media-block" href="">
@@ -163,8 +201,8 @@
          </li>
          <li class="person">
            <img src="./img/com-2.jpg" alt="">
-           <p>Ольга Репина</p>
-           <p>Frontend Developer</p>
+           <p class="com-text">Ольга Репина</p>
+           <p class="com-text2">Frontend Developer</p>
             <ul class="social-icon">
               <ul class="social-icon">
                 <li class="social">
@@ -202,8 +240,8 @@
          </li>
          <li class="person">
            <img src="./img/com-3.jpg" alt="">
-           <p>Николай Тарасов</p>
-           <p>Marketing</p>
+           <p class="com-text">Николай Тарасов</p>
+           <p class="com-text2">Marketing</p>
            <ul class="social-icon">
             <ul class="social-icon">
               <li class="social">
@@ -241,8 +279,8 @@
          </li>
          <li class="person">
            <img src="./img/com-4.jpg" alt="">
-           <p>Михаил Ермаков</p>
-           <p>UI Designer</p>
+           <p class="com-text">Михаил Ермаков</p>
+           <p class="com-text2">UI Designer</p>
           <ul class="social-icon">
             <ul class="social-icon">
               <li class="social">
@@ -340,40 +378,58 @@
          <li><a class="footer-info" href="">+38 099 111 11 11</a></li>
        </ul>
         <div class="invite"><p class="text-footer">ПРИСОИДИНЯЙТЕСЬ</p>
-       <ul class="soc-footer">
-          <li class="soc-item">
-            <a class="footer-link" href="">
-              <svg class="footer-icon">
-               <use href="./img/sprite.svg#instagram"></use>
-              </svg>
-           </a>
-         </li>
-          <li class="soc-item">
-            <a class="footer-link" href="">
-              <svg class="footer-icon">
-                <use href="./img/sprite.svg#twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="soc-item">
-            <a class="footer-link" href="">
-              <svg class="footer-icon">
-                <use href="./img/sprite.svg#facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="soc-item">
-            <a  class="footer-link" href="">
-              <svg class="footer-icon">
-                <use href="./img/sprite.svg#linkedin"></use>
-              </svg>
-            </a>
-          </li>
-       </ul>
+          <ul class="soc-footer">
+            <li class="soc-item">
+              <a class="footer-link" href="">
+                <svg class="footer-icon">
+                  <use href="./img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a class="footer-link" href="">
+                <svg class="footer-icon">
+                  <use href="./img/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a class="footer-link" href="">
+                <svg class="footer-icon">
+                  <use href="./img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-item">
+              <a  class="footer-link" href="">
+                <svg class="footer-icon">
+                  <use href="./img/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+       
        </div>
+        <div class="footer-input-form">
+          <p class="footer-input-text">Подпишитесь на рассылку</p>
+          <div class="footer-input">
+            <input type="text" class="footer-input-field" placeholder = "E-mail" autocomplete="off" name="name" id="fottmail">
+            <button class="footer-butt">
+              <div class="blart-text">
+                Подписаться
+                <svg class="footer-blart">
+                  <use href="./img/sprite.svg#blart"></use>
+                </svg>
+              </div>
+            </button>
+            
+          </div>
+          
+        </div>
       </div>
       </div>
     </footer>
     <script src="/NEW-BASIC/js/modal.js"></script>
+    <script src="/NEW-BASIC/js/activemenu.js"></script>
   </body>
 </html>
